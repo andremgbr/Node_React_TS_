@@ -1,0 +1,24 @@
+{
+  "type": "mongodb",
+  "database": "dbWebTask",
+  "url": "mongodb+srv://dbWebTask:q$p_-QBEuME83_Y@cluster0.j3hlg.mongodb.net/dbWebTask?retryWrites=true&w=majority",
+  "useNewUrlParser": true,
+  "useUnifiedTopology": true,
+  "synchronize": true,
+  "logging": false,
+  "ssl": true,
+  "entities": [
+    "src/entity/*.ts"
+  ],
+  "migrations": [
+    "src/migration/**/*.ts"
+  ],
+  "subscribers": [
+    "src/subscriber/**/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}

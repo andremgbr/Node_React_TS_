@@ -1,0 +1,40 @@
+{
+   "name": "webtask",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "dependencies": {
+      "@types/express": "^4.17.12",
+      "@types/passport": "^1.0.6",
+      "@types/typescript": "^2.0.0",
+      "body-parser": "^1.19.0",
+      "cookie-parser": "^1.4.5",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "express-react-views": "^0.11.0",
+      "express-session": "^1.17.2",
+      "mongodb": "^3.0.8",
+      "passport": "^0.4.1",
+      "passport-local": "^1.0.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "reflect-metadata": "^0.1.10",
+      "ts-node-dev": "^1.1.6",
+      "typeorm": "0.2.34",
+      "typescript": "^4.3.2",
+      "uuid": "^8.3.2"
+   },
+   "devDependencies": {
+      "@types/express-session": "^1.17.3",
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "typeorm": "ts-node-dev node_modules/typeorm/cli.js",
+      "start": "ts-node-dev src/index.ts"
+   },
+   "author": "",
+   "license": "ISC"
+}

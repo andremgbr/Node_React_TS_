@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\my-app\\public",
+    "\\my-app\\src",
+    "\\my-app\\src\\layout",
+    "\\my-app\\src\\pages",
+    "\\src",
+    "\\src\\controllers",
+    "\\src\\service"
+  ],
+  "SelectedNode": "\\src\\controllers\\ProjectsController.ts",
+  "PreviewInSolutionExplorer": false
+}

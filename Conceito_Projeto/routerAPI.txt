@@ -1,0 +1,39 @@
+Layout of app files.
+
+/user
+   POST:
+	  payload:{
+		    primeiro nome:{}
+		    ultimo nome:{}
+		    senha:{}
+		    UserId:{}
+		  }
+	
+   GET:
+	  query:{
+		    id_index:{}
+		}
+	  headers:{
+		    token:{}
+		}
+		
+   DELETE:
+	  query:{
+		    id_index:{}
+		}
+	  headers:{
+		    token:{}
+		}
+   UPDATE:
+	  query:{
+		    id_index:{}
+		}
+	  headers:{
+		    token:{}
+		}
+	  payload:{
+		    primeiro nome:
+		    ultimo nome:
+		    senha:
+		    UserId:
+		  }
